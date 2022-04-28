@@ -1,9 +1,6 @@
 
 # chatApp
 a multiuser chat server
-authors: 
-Marom Cohen, ID - 324234756
-Gilad Shimoni, ID - 208968032
 
 Greeting Earthlings ! 
 We are proud to presnt are futuristic chat between galaxies!
