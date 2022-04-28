@@ -1,0 +1,35 @@
+
+.content-info-div {
+    background: blanchedalmond;
+    background: none;
+    width:fit-content;
+    padding: 0%;
+}
+
+.type-icon {
+    align-self: flex-start;
+    padding: 0%;
+    margin: 0%;
+}
+
+.icon-column {
+    justify-content: center;
+    width: fit-content;
+    background: none;
+    width: 46%;
+}
+
+.text-design {
+    align-self: flex-start;
+    width:fit-content;
+    text-align:left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    background: none;
+    padding: 0%; 
+    /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    max-width: 100%; */
+}

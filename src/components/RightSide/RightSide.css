@@ -1,0 +1,12 @@
+/*MAIN DIV --- holds all elements of the right side*/
+.back-screen {
+    background-color: rgba(183, 183, 183);
+    background: transparent;
+    float: left;
+    width: 60%;
+    height: 95%;
+    align-self: center;
+    margin-left: 5%;
+    margin: 0%;
+    padding: 0%;
+}

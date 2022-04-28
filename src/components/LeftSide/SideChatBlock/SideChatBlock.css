@@ -1,0 +1,145 @@
+/*MAIN DIV --- wrappes all the elements in the div*/
+.all-div-wrapper {
+    border-radius: 1rem;
+    background-color: rgb(243, 243, 243);
+    height:20%;
+    margin-top: 2.5%;
+    width: 98%;
+    margin-left: 1%;
+    background-color: aqua;
+    background-color: rgb(169,169,169,0.5);
+    background-color: rgba(117, 117, 117, 0.7);
+    margin-right: 0%;
+    padding-right: 0%;
+    display: inline-block;
+}
+
+/*affects ALL cards*/
+.card {
+    border:none;
+}
+
+.middle-content {
+    background:none;
+    justify-content: center;
+    padding: 0%;
+}
+
+/*where the image goes*/
+.image-wrap {
+    width: 20%;
+    height: 83%;
+    background-color: #faebd7;
+    background:none;    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 18px;
+    padding: 0%;
+    margin-top: 2.5%;
+
+}
+
+.friend-img {
+    width:100%;
+    height:100%;
+    border: solid black 2px;
+    object-fit: cover;
+    align-self: flex-start;
+}
+
+/*NAME*/
+.card .name {
+    display: block;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-family: Times, Times New Roman, serif;
+    font-family: Century Gothic;
+    font-size: 1.4vw;
+    font-style:italic;
+    color: black;
+    text-align:left;
+    padding-top: 4%;
+    background-color:rgb(243, 243, 243);
+    width: fit-content;
+    background: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    max-width: 100%;
+}
+
+/*wrapper div of all the info blocks*/
+.info {
+    background-color: aliceblue;
+    background-color: rgb(243, 243, 243);   
+    border-radius: 1rem;
+    background: none;
+}
+
+/*TIME*/
+/****************************************************/
+
+/*wrapper div of time of messages*/
+.card .time-wrapper {
+    background-color: aliceblue;
+    background-color: rgb(243, 243, 243);
+    height:35%;
+    text-align: center;
+    justify-content: start;
+    padding-top: 2%;
+    border: none;
+    width:fit-content;
+    align-self: center;
+    background: none;
+    margin-left: 1%;
+}
+
+/*time itself*/
+.time {
+    align-self: flex-start;
+    width:fit-content;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 25px;
+    font-size: small;
+
+}
+/***********************************************************/
+
+/*LAST MESSAGE*/
+/***********************************************/
+
+/*div wrapping the last message block*/
+.card .last-msg-wrapper {
+    background-color: aliceblue;
+    background-color: rgb(243, 243, 243);
+    height:35%;
+    text-align: center;
+    justify-content: start;
+    border: none;
+    width:fit-content;
+    align-self: flex-start;
+    background: none;
+    margin-left: 1%;
+
+}
+
+/*block the last message appears in*/
+.last-msg {
+    align-self: flex-start;
+    width:fit-content;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 25px;
+    font-size: medium;
+    display: block;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    /* background-color: red; */
+}

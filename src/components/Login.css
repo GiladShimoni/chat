@@ -1,0 +1,240 @@
+@media all and (min-width: 480px) {
+
+  .Login {
+    padding: 60px 0;
+    /* background-image: url("C:\Users\Giora DELL\chatApp\app\public\logo512.png"); */
+
+  }
+  .login-div {
+    padding: 0%;
+    background-color: black;
+    width:100%;
+    height:8%;
+    display: flex;
+    align-self: flex-end;
+    justify-self: end;
+    margin-top: 25%;
+    justify-content: center;
+    justify-self: end;
+  }
+
+   .login-button {
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+    border-radius: 1rem;
+    border:none;
+    color: white;
+    background-color: grey;
+  }
+
+  .login-button:hover {
+      background: grey;
+  }
+
+button {
+    border: none;
+    outline: none;
+    background: none;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+
+button {
+    display: block;
+    margin: 0 auto;
+    max-width: 320px;
+  }
+}
+
+.zoom-in-zoom-out {
+  margin: 10%;
+  width: 5%;
+  height: 5%;
+  /* background: url("C:\Users\marom\Documents\HW\2nd year\Advanced Programming 2\App\chatApp\app\public\star.png"); */
+  background-size: 15%;
+  background-repeat: no-repeat;
+  animation: zoom-in-zoom-out 2s ease-out infinite;
+  position: absolute;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.background-div {
+  padding: 0%;
+  margin: 0%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /* background-image: url("C:\Users\marom\Documents\HW\2nd year\Advanced Programming 2\App\chatApp\app\public\view_moon.webp"); */
+  /* background-image: url("C:\Users\marom\Documents\HW\2nd year\Advanced Programming 2\App\chatApp\app\public\app-name (3).PNG"); */
+  background-image: url("../../public/connect-organized\ \(2\).png ");
+  background-size: cover;
+  justify-content: end;
+}
+
+.login-div {
+  padding: 0%;
+  background-color: black;
+  width: 100%;
+  height: 8%;
+  display: flex;
+  align-self: flex-end;
+  justify-self: end;
+  margin-top: 25%;
+  justify-content: center;
+  justify-self: end;
+}
+
+.login-button {
+  display: flex;
+  align-self: center;
+  justify-content: flex-end;
+  border-radius: 1rem;
+  border: none;
+  color: white;
+  background-color: grey;
+}
+
+.login-button:hover {
+  background: grey;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+
+button {
+  display: block;
+  margin: 0 auto;
+  width: 260px;
+  height: 36px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+.form-input {
+  display: flex;
+  border: none;
+  border-radius: 2rem;
+  background-color: rgba(255, 255, 255, 0.392);
+  width: 80%;
+}
+
+.input-label {
+  padding-left: 12%;
+  padding-top: 6%;
+  padding-bottom: 0%;
+  font-size: 1.5vw;
+  background-color: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.end-btn {
+  align-self: center;
+  justify-content: center;
+  width: 45%;
+  border-radius: 2rem;
+  background-color: rgba(57, 57, 57, 0.642);
+  color: white;
+  border: none;
+}
+
+.end-btn:active {
+  color: black;
+  background-color: rgba(57, 57, 57, 0.642);
+}
+
+.end-btn:focus {
+  color: black;
+  background-color: rgba(57, 57, 57, 0.642);
+}
+
+.end-btn:hover {
+  color: black;
+  background-color: rgba(57, 57, 57, 0.642);
+}
+
+
+.modal-body {
+  /* background:
+    linear-gradient(rgba(135, 182, 223, 0.479), rgba(52, 70, 160, 0.594), rgba(44, 21, 78, 0.724), rgba(32, 1, 49, 0.842)); */
+    background:
+    linear-gradient(rgba(107, 154, 194, 0.479), rgba(52, 70, 160, 0.594),rgba(44, 21, 78, 0.724), rgba(32, 1, 49, 0.842));
+}
+
+.welcome-div {
+  text-align: center;
+  font-size: 2vw;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-family: 'cursive';
+  color: black;
+  font-size: 3vw;
+  font-style: italic;
+  font-family: Times, Times New Roman, serif;
+}
+
+.login-btn {
+  padding-bottom: 10%;
+  padding-top: 5%;
+}
+
+.not-reg-div {
+  padding-top: 5%;
+  border: none;
+  border-top: solid white 0.5px;
+  width: 90%;
+  align-self: center;
+  justify-self: center;
+  margin-left: 5%;
+  padding-bottom: 6%;
+}
+
+.not-reg {
+  text-align: end;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+.sign-up-btn {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.7);
+}

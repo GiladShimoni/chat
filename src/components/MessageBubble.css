@@ -1,0 +1,41 @@
+
+.msg-time {
+      color: white;
+      align-self: flex-end;
+      background:none;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: small;
+  }
+
+  #other-msg-time {
+    align-self: flex-start;
+    margin-left: 3.5%;
+  }
+.msg {
+    background-color: #eee;
+    background-color: #0085D1;
+    background: linear-gradient(to bottom, #0085D1 0%, #0085D1 100%);
+    border-radius: 2rem;
+    align-self: flex-end;
+    width: fit-content;
+    margin-top:2%;
+    padding: 2%;
+    max-width: 100%;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+#msg-image {
+  width: 50%;
+}
+
+
+.other-msg {
+  background-color: #eee;
+  border-radius: 2rem;
+  align-self: flex-start;
+  width: fit-content;
+  margin-top:5%;
+  padding: 2%;
+  margin-left: 2%;
+}

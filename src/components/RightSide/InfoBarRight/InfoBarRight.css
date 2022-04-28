@@ -1,0 +1,87 @@
+/*MAIN DIV -- contains all the elements*/
+.card .all-div {
+    border-radius: 1rem;
+    background-color: white;
+    background-color: rgb(169,169,169,0.5);
+    background-color: rgba(117, 117, 117, 0.7);
+    height: 12.7%;
+    margin-bottom: 1.3%;
+    width: 90%;
+    align-self: center;
+}
+
+/*IMAGE*/
+/***********************************************/
+
+/*relates to the image itself*/
+.usr-image {
+    background-color: aqua;
+    background-color: white;
+    background-color: rgb(169,169,169,0.5);
+    background-color: rgba(117, 117, 117, 0.7);
+    height: 100%;
+    width: 80%;
+}
+
+/*card that contains the image*/
+.card .img-card {
+    background-color: blue;
+    background-color: white;
+    background-color: rgb(169,169,169,0.5);
+    background-color: rgba(117, 117, 117, 0.7);
+    height: 99%;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+    /* width:16%; 
+     padding-left: 2%; */
+    width: 19%;
+    padding-left: 5%;
+}
+
+/*USERNAME*/
+/***************************************************/
+
+/*card that contains the username*/
+.card .user-card {
+    background-color: white;
+    background-color: rgb(169,169,169,0.5);
+    background-color: rgba(117, 117, 117, 0.7);
+    width: 10%;
+    font-family: Century Gothic;
+    font-size: 3vw;
+    margin-left: 0%;
+    font-style:italic;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    border-radius: 0%;
+    max-width: 100%;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    /* padding-left: 20%; */
+}
+
+/*MORE*/
+/****************************************************/
+
+/*card that CONTAINS the more icon*/
+.card .more-card {
+    background-color: brown;
+    background-color: white;
+    background-color: rgb(169,169,169,0.5);
+    background-color: rgba(117, 117, 117, 0.7);
+    justify-content: center;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+}
+
+/*the more icon itself*/
+.more-icon {
+    align-self: center;
+    justify-self: center;
+    color: black;
+}

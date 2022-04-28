@@ -1,0 +1,236 @@
+/*div that wrappes the whole component*/
+.card .whole-bar {
+    background-color: cyan;
+    background-color: white;
+    height: 9%;
+    width: 88%;
+    align-self: center;
+    background-color: rgb(169,169,169,0.5);
+    background-color: rgba(117, 117, 117, 0.7);
+}
+
+/* MIC*/
+/*************************************************/
+
+/*css of the paper mic icon itself*/
+.mic-icon {
+    color: black;
+    align-self: center;
+}
+
+/*most external wrapping div --- indicates the column size*/
+.card .mic-div {
+    background-color: coral;
+    background-color: white;
+    justify-content: center;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+    width: 13%;
+    background-color: rgb(169,169,169,0.5);
+    background-color: rgba(117, 117, 117, 0.7);
+}
+
+/*card div the surroundes only the mic icon (can also be a circle around the icon)*/
+.card .mic-icon-wrapper {
+    height: 100%;
+    width: 60%;
+    justify-content: center;
+    align-self: center;
+    width: fit-content;
+    height: 100%;
+    background: none;
+}
+
+/*****************************************************/
+
+
+/* SEND BOX*/
+/*************************************************/
+
+/*external wrapper - wrappes evrything after the paper clip*/
+.card .send-wrapper{
+    background-color: darkred;
+    background-color: white;
+    background-color: rgb(169,169,169,0.5);
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+    background: none;
+    background-color: rgb(169,169,169,0.5);
+    background-color: rgba(117, 117, 117, 0.7);
+}
+
+/*div wrapping only the send input --- where we write the text*/
+.card .send-input-wrapper {
+    background-color: aquamarine;
+    background-color: white;
+    width: 80%;
+    background: none;
+    
+}
+
+.send-input::placeholder{
+    color: black;
+}
+
+/*actual place where we type*/
+.card .send-input {
+    height: 100%;
+    border: none;
+    width: 100%;
+    background-color: rgb(169,169,169,0.5);
+    background: none;
+    border: none;
+    outline: none;
+    background: none;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    
+}
+
+/****************************************************/
+
+/*PAPER CLIP*/
+/********************************************/
+/*the link icon itself*/
+.link-icon {
+    color: black;
+    align-self: center;
+
+}
+
+/*the most external div surrounding the mic icon*/
+.card .link-div {
+    background-color: coral;
+    background-color: white;
+    justify-content: center;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-radius: 0%;
+    width: 13%;
+    background-color: rgb(169,169,169,0.5);
+    background: none;
+
+}
+
+/*card div that surrounds oly the mic icon (can also be the circle)*/
+.card .link-icon-wrapper {
+    height: 100%;
+    width: 60%;
+    justify-content: center;
+    align-self: center;
+    width: fit-content;
+    height: 100%;
+    background: none;
+}
+
+/* SEND ICON*/
+/*****************************************************/
+/*external div wrapping all the other icon's divs --- indicates the column in which the icon appears*/
+.card .send-icon-div {
+    background-color: lawngreen;
+    background-color: white;
+    color: black;
+    justify-content: center;
+    width: 7%;
+    padding: 0%;
+    margin: 0%;
+    height: 90%;
+    align-self: center;
+    justify-content: center;
+    background-color: rgb(169,169,169,0.5);
+    background-color: rgba(117, 117, 117, 0.7);
+    background: none;
+    
+
+}
+
+/*CSS of the icon itself*/
+.card .send-icon {
+    align-self: center;
+    background: none;
+}
+
+/*circled div surrounding the send icon*/
+.card .circle-sencd-icon-div {
+    justify-content: center;
+    background-color:orangered;
+    background-color: white;
+    background-color: rgb(15, 43, 128);
+    height: 100%;
+    border-radius: 70%;
+    width: 70%;
+}
+
+.try-div {
+    width: 20%;
+    height: 20%;
+    margin: 10%;
+    background-color: wheat;
+    color: black;
+}
+
+
+/***********RECORD MODAL********************/
+/********************************************************/
+
+/*BODY*/
+.modal-body {
+    color: black;
+}
+
+#audio-buttons {
+    color: black;
+}
+
+/******************ATTATCHMENT FILES***********************/
+/*********************************************/
+
+/*Image*/
+
+.image-file-attach {
+    background-color: red;
+    padding-top: 10%;
+    border-radius: 2rem;
+    width: 100%;
+    margin-top: 60%;
+    padding-right: 10%;
+    padding-top: 30%;
+    padding-bottom: 30%;
+}
+
+.enter-image-input{
+    margin-top: 5%;
+    margin-bottom: 4%;
+    align-self: center;
+    border-radius: 3rem;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.392);
+    border: none;
+}
+
+/*FILE*/
+
+.div-attach {
+    background-color: aqua;
+    background-color: aliceblue;
+    margin-top: 60%;
+    width: 158%;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    justify-content: center;
+    margin-left: -30%;
+}
+
+.attach-icon {
+    align-self: center;
+}
+
+.popover-style {
+    background: none;
+    border: none;
+}
+
+.popover-body{
+    background: none;
+}
+
+

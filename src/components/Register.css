@@ -1,0 +1,17 @@
+.RegisterCard{
+   width: '40rem';
+   
+}
+.ErrorMsg{
+   color: red;
+   text-align: center;
+}
+
+.signup-btn {
+   align-self: center;
+   justify-self: center;
+}
+
+.end-btn-signup {
+   border-radius: 2rem;
+}

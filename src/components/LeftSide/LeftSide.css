@@ -1,0 +1,12 @@
+/*div the contains all the left side*/ 
+.back-div {
+    background-color: rgba(183, 183, 183);
+    background: transparent;
+    height:95%;
+    width: 35%;
+    align-self: center;
+    justify-content: center;
+    margin-left: 5%;
+    background: none;
+    
+}
